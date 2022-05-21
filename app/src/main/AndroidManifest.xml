@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyLearingABC">
         <activity
+            android:name=".ExamPage"
+            android:exported="false" />
+        <activity
+            android:name=".LearninPage1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

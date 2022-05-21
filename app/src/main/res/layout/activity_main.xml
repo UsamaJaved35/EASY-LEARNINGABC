@@ -32,23 +32,23 @@
         app:srcCompat="@drawable/abc" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/learning"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LEARNING"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/exam"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/exam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="EXAMINING"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/repo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +56,7 @@
         app:layout_constraintVertical_bias="0.762" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/repo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="108dp"
