@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyLearingABC">
         <activity
+            android:name=".LearningPage2"
+            android:exported="false" />
+        <activity
             android:name=".ExamPage"
             android:exported="false" />
         <activity
