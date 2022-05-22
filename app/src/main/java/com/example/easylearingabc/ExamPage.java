@@ -53,7 +53,6 @@ public class ExamPage extends AppCompatActivity implements View.OnClickListener 
                    // imageView.setImageResource(R.drawable.c1);
                     drawImageSetBtns(btnTxt1);
                     counter++;
-                    //  textView.setText("CORRECT ANSWER!!!!");
                 }
                 break;
             case  R.id.button3:
@@ -64,7 +63,6 @@ public class ExamPage extends AppCompatActivity implements View.OnClickListener 
                 {
                     drawImageSetBtns(btnTxt2);
                     counter++;
-                    //  textView.setText("CORRECT ANSWER!!!!");
                 }
                 break;
             case R.id.button4:
@@ -75,7 +73,6 @@ public class ExamPage extends AppCompatActivity implements View.OnClickListener 
                 {
                     drawImageSetBtns(btnTxt3);
                     counter++;
-                    //  textView.setText("CORRECT ANSWER!!!!");
                 }
                 break;
         }
