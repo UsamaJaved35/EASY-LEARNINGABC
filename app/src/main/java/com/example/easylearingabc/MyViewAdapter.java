@@ -21,10 +21,8 @@ public class MyViewAdapter extends ArrayAdapter<Letter> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         Letter letter = getItem(position);
-        convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_learnin_page1, parent, false);
-        TextView textViewAlphabet =  convertView.findViewById(R.id.textView2);
-        ImageView imageView = convertView.findViewById(R.id.imageAlphabet);
-        textViewAlphabet.setText(letter.getAlphabet());
+        convertView = LayoutInflater.from(getContext()).inflate(R.layout.alphabet, parent, false);
+        ImageView imageView = convertView.findViewById(R.id.imageView2);
         imageView.setImageResource(letter.getImgId());
         return convertView;
     }
