@@ -38,6 +38,7 @@ public class LearninPage1 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l)
             {
+              //  view.setBackgroundColor(getResources().getColor(com.google.android.material.R.color.material_deep_teal_200));
                 Intent sendImage = new Intent(LearninPage1.this, LearningPage2.class);
                 sendImage.putExtra("image",imgLearn[i]);
                 startActivity(sendImage);
